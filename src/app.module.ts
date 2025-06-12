@@ -7,7 +7,7 @@ import { ContactModule } from './contact/contact.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'https://f11e-106-215-93-159.ngrok-free.app/',
       port: 5432,
       username: 'postgres',
       password: 'password',
